@@ -1,13 +1,13 @@
-title: Minimalist
-owner: Max Muster
+title: Bhanu Prakash Reddy Guda
+owner: Bhanu Prakash Reddy Guda
 email:
-description: A simple and minimalistic jekyll blogging theme
+description: Personal website of Bhanu Prakash Reddy Guda
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 language: en
 twitter_username:
 github_username:
-disqus_username: 
+disqus_username:
 # Build settings
 markdown: kramdown
 theme: minima
