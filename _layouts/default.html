@@ -6,7 +6,10 @@
 		{% include logo.html %}
 		{% include nav.html %}
 		<div id="content-left">
-      <h2>{{page.title}}</h2>
+      {% assign title = page.title | strip_newlines %}
+      {% if title != ""  %}
+      <h2>{{title}}</h2>
+      {% endif %}
       {{content}}
 		</div>
 		{% include footer.html %}
