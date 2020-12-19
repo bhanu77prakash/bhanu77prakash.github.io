@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bhanu Prakash Reddy Guda</title>
+</head>
+<body>
+
+    <h1>Masonry Gallery</h1>
+
+    <div class="gallery" id="gallery">
+      {% for y in (1..4) %}
+        <div class="gallery-item">
+            <div class="content"><img src="{{site.url}}{{site.baseurl}}/assets/images/photography/image{{forloop.index}}.jpg" alt=""></div>
+        </div>
+      {% endfor %}
+    </div>
+
+</body>
+</html>
