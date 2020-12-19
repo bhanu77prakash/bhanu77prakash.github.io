@@ -12,15 +12,21 @@
       {% endif %}
       {{content}}
       {% if page.title == "Assorted"  %}
+      <div class="gallery" id="gallery">
+
         {% for y in (1..4) %}
-          <div class="responsive">
+          <div class="gallery-item">
+              <div class="content"><img src="{{site.url}}{{site.baseurl}}/assets/images/photography/image{{forloop.index}}.jpg" alt=""></div>
+          </div>
+          <!-- <div class="responsive">
             <div class="gallery">
               <a target="_blank" href="{{site.url}}{{site.baseurl}}/assets/images/photography/image{{forloop.index}}.jpg">
                 <img src="{{site.url}}{{site.baseurl}}/assets/images/photography/image{{forloop.index}}.jpg" alt="image" width="200" height="100">
               </a>
             </div>
-          </div>
+          </div> -->
         {% endfor %}
+      </div>
       {% endif %}
 		</div>
     {% include footer.html %}
