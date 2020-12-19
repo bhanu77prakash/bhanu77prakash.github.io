@@ -12,7 +12,9 @@
       {% endif %}
       {{content}}
 		</div>
+    {% if page.title != "Assorted"  %}
 		{% include footer.html %}
+    {% endif %}
 	</div>
     </body>
 </html>
