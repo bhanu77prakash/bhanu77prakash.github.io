@@ -1,34 +1,19 @@
-<div style="display:inline-block;float:left;">
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="{{site.url}}{{site.baseurl}}/assets/images/photography/image1.jpg">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/photography/image1.jpg" alt="image" width="200" height="100">
-      </a>
-    </div>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bhanu Prakash Reddy Guda</title>
+</head>
+<body>
 
+    <h1>Masonry Gallery</h1>
 
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="{{site.url}}{{site.baseurl}}/assets/images/photography/image2.jpg">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/photography/image2.jpg" alt="image" width="200" height="100">
-      </a>
+    <div class="gallery" id="gallery">
+      {% for y in (1..4) %}
+        <div class="gallery-item">
+            <div class="content"><img src="{{site.url}}{{site.baseurl}}/assets/images/photography/image{{forloop.index}}.jpg" alt=""></div>
+        </div>
+      {% endfor %}
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="{{site.url}}{{site.baseurl}}/assets/images/photography/image3.jpg">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/photography/image3.jpg" alt="image" width="200" height="100">
-      </a>
-    </div>
-  </div>
-
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="{{site.url}}{{site.baseurl}}/assets/images/photography/image4.jpg">
-        <img src="{{site.url}}{{site.baseurl}}/assets/images/photography/image4.jpg" alt="image" width="200" height="100">
-      </a>
-    </div>
-  </div>
-</div>
+</body>
+</html>
