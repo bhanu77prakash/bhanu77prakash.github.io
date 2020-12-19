@@ -52,12 +52,11 @@
 </head>
 <body>
     <h1>My Gallery</h1>
-
-    <div class="gallery" id="gallery">
+    <div class="grid-container">
       {% for y in (1..9) %}
-      <div>
-        <img class='grid-item grid-item-6' src='{{site.url}}{{site.baseurl}}/assets/images/photography/image{{forloop.index}}.jpg' alt=''>
-      </div>
+        <div>
+          <img class='grid-item grid-item-{{forloop.index}}' src='{{site.url}}{{site.baseurl}}/assets/images/photography/image{{forloop.index}}.jpg' alt=''>
+        </div>
       {% endfor %}
     </div>
 
