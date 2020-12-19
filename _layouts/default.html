@@ -11,10 +11,10 @@
       <h1>{{title}}</h1>
       {% endif %}
       {{content}}
+      {% if page.title == "Assorted"  %}
+  		{% include gallery.html %}
+      {% endif %}
 		</div>
-    {% if page.title == "Assorted"  %}
-		{% include gallery.html %}
-    {% endif %}
     {% include footer.html %}
 	</div>
     </body>
