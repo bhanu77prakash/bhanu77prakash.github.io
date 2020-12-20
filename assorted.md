@@ -14,4 +14,4 @@ Finally, when I find some free time(which is rare ofcourse), I pen down all my t
 For the CS students of IIT KGP, you can find various question papers of my batch [here](https://drive.google.com/open?id=119-uZHP9iX56l1MbTCnPceoVJtizJFDK).
 
 ### Photography
-I am not a pro but I am in ❤️ with it. You can find some of them [here](/gallery/) 
+I am not a pro but I am in ❤️ with it. You can find some of them [here](/gallery/) \[images are subjected to ©️ 😉\] 
