@@ -12,10 +12,10 @@
 </head>
 <body>
     <h1>My Gallery</h1>
-    <section id="photos">
+    <div id="photos">
         {% for y in (1..9) %}
                 <img src='{{site.url}}{{site.baseurl}}/assets/images/photography/image{{forloop.index}}.jpg' alt=''>
         {% endfor %}
-    </section>
+    </div>
 </body>
 </html>
