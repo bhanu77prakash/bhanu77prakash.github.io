@@ -12,15 +12,13 @@
 </head>
 <body>
     <h1>My Gallery</h1>
-    <div class="container">
+    <div class="gallery" id="gallery">
         {% for y in (1..9) %}
-          <div class="gallery-container ">
             <div class="gallery-item">
-              <div class="image">
+              <div class="content">
                 <img src='{{site.url}}{{site.baseurl}}/assets/images/photography/image{{forloop.index}}.jpg' alt=''>
               </div>
             </div>
-          </div>
         {% endfor %}
     </div>
 

@@ -41,139 +41,149 @@ a:hover	{
 	text-decoration: underline;
 }
 
-body {
-  margin: 20px;
-  padding: 0;
-  text-align: center;
+.hello {
+  opacity: 1 !important;
 }
-.container{
+.full {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.full .content {
+  background-color: rgba(0,0,0,0.75) !important;
+  height: 100%;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(6,1fr);
-  grid-auto-rows: 100px 300px;
-  grid-gap: 10px;
-  grid-auto-flow: dense;
 }
-
-.gallery-item{
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.gallery-item .image{
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.gallery-item .image img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  cursor: pointer;
-  transition:.5s ease-in-out;
-}
-
-.gallery-item:hover .image img{
-  transform: scale(1.5);
-}
-
-.gallery-item .text{
-  opacity: 0;
-  position: absolute;
-  top: 50%;
+.full .content img {
   left: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
-  font-size: 25px;
-  pointer-events: none;
-  z-index: 4;
-  transition: .3s ease-in-out;
-  -webkit-backdrop-filter: blur(5px) saturate(1.8);
-  backdrop-filter: blur(5px) saturate(1.8);
+  transform: translate3d(0, 0, 0);
+  animation: zoomin 1s ease;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
 }
-
-.gallery-item:hover .text{
-  opacity: 1;
-  animation: move-down .3s linear;
-  padding: 1em;
-  width: 100%;
+.byebye {
+  opacity: 0;
 }
-
-.w-1{
-  grid-column: span 1;
+.byebye:hover {
+  transform: scale(0.2) !important;
 }
-
-.w-2{
-  grid-column: span 2;
+.gallery {
+  display: grid;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 8px;
 }
-
-.w-3{
-  grid-column: span 3;
+.gallery img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 16px #333;
+  transition: all 1.5s ease;
 }
-
-.w-4{
-  grid-column: span 4;
+.gallery img:hover {
+  box-shadow: 0 0 32px #333;
 }
-
-.w-5{
-  grid-column: span 5;
+.gallery .content {
+  padding: 4px;
 }
-
-.w-6{
-  grid-column: span 6;
+.gallery .gallery-item {
+  transition: grid-row-start 300ms linear;
+  transition: transform 300ms ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
-
-.h-1{
-  grid-row: span 1;
+.gallery .gallery-item:hover {
+  transform: scale(1.025);
 }
-
-.h-2{
-  grid-row: span 2;
-}
-
-.h-3{
-  grid-row: span 3;
-}
-
-.h-4{
-  grid-row: span 4;
-}
-
-.h-5{
-  grid-row: span 5;
-}
-
-.h-6{
-  grid-row: span 6;
-}
-
-@media screen and (max-width:500px){
-  .container{
-    grid-template-columns: repeat(1,1fr);
-  }
-  .w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
-  grid-column:span 1;
-  }
-
-  .h-1,.h-2,.h-3,.h-4,.h-5,.h-6{
-  grid-row: span 3;
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   }
 }
-
-
-
-@keyframes move-down{
-
-  0%{
-    top: 10%;
+@media (max-width: 400px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
   }
-  50%{
-    top: 35%;
+}
+@-moz-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
   }
-  100%{
-    top: 50%;
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
   }
 }
 
