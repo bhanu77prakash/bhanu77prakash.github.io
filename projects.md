@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Publications
 permalink: /projects/
 ---
 * NwQM: A Neural Quality Assessment Framework for Wikipedia \[[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.674.pdf)|[code](https://github.com/sasibhushan3/NwQM_EMNLP)\]  
