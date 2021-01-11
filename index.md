@@ -10,9 +10,9 @@ I hail from a rural area, Podili. I had most of my schooling in Andhra Pradesh, 
 
 ### News
 
-|**Jan 2020**    |  Our paper on demographic aware EmpathBERT is accepted at EACL 2021 📄|
-|**Sep 2020**    |  Attending RecSys 2020 to present our internship work|
-|**Sep 2020**    |  Our paper on quality estimation of Wiki pages is accepted at EMNLP 2020 📄|
-|**Jul 2020**    |  Our internship work on command recommendation is accepted at RecSys 2020 📄|
-|**Aug 2019**    |  Graduated from CSE department IIT Kharagpur 🎓|
-|**Jul 2019**    |  Joined Adobe Research Bangalore as a Research Associate 👨‍💼|
+|**Jan 2021**    |    Our paper on demographic aware EmpathBERT is accepted at EACL 2021 📄|
+|**Sep 2020**    |    Attending RecSys 2020 to present our internship work|
+|**Sep 2020**    |    Our paper on quality estimation of Wiki pages is accepted at EMNLP 2020 📄|
+|**Jul 2020**    |    Our internship work on command recommendation is accepted at RecSys 2020 📄|
+|**Aug 2019**    |    Graduated from CSE department IIT Kharagpur 🎓|
+|**Jul 2019**    |    Joined Adobe Research Bangalore as a Research Associate 👨‍💼|
