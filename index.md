@@ -9,7 +9,7 @@ I am currently working as a Research Associate at [Big Data Experience Lab, Adob
 I hail from a rural area, Podili. I had most of my schooling in Andhra Pradesh, India. So I am very much familiar with South Indian culture. Thanks to all my North Indian friends(too many to mention here), I can understand and speak Hindi. In total I am comfortable with Telugu, English and Hindi languages. Though I had studied for 4 years at IIT Kharagpur, I am not at all familiar with Bengali.
 
 ### News
-|**Jan 2021**    |&nbsp;&nbsp;Submitted our work "Analyzing Empathy and Distress in Reactions to News Stories across Demographics" to ICWSM 2021 📄|
+
 |**Jan 2021**    |&nbsp;&nbsp;Our paper on demographic aware EmpathBERT is accepted at EACL 2021 📄|
 |**Dec 2020**    |&nbsp;&nbsp;Submitted our work "Supervised Automated Keyphrase Extraction" to PAKDD 2021 📄|
 |**Sep 2020**    |&nbsp;&nbsp;Attending RecSys 2020 to present our internship work|
