@@ -3,6 +3,9 @@ layout: default
 title: Publications
 permalink: /projects/
 ---
+* EmpathBERT: A BERT-based Framework for Demographic-aware Empathy Prediction *EMNLP 2021 (Accepted)* \[[pdf](/assets/EACL2021_EmapthBERT_Camera_Ready.pdf)\]  
+  Bhanu Prakash Reddy Guda, Aparna Garimella, Niyati Chhaya
+
 * NwQM: A Neural Quality Assessment Framework for Wikipedia *EMNLP 2020* \[[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.674.pdf)|[code](https://github.com/sasibhushan3/NwQM_EMNLP)|[cite](https://scholar.googleusercontent.com/scholar.bib?q=info:KcgYg4VUnvkJ:scholar.google.com/&output=citation&scisdr=CgX0sZ7WEJqelwBG8MY:AAGBfm0AAAAAX_1D6MZCUKkUEV7Mku0UJAuu2VmoT0Ck&scisig=AAGBfm0AAAAAX_1D6P4ztb7WZSf-pK_vjsga3MsXEkrO&scisf=4&ct=citation&cd=-1&hl=en)\]  
   Bhanu Prakash Reddy Guda, Sasi Bhushan Seelaboyina, Soumya Sarkar, Animesh Mukherjee
 
