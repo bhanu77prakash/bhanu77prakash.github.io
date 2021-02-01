@@ -10,6 +10,8 @@ I hail from a rural area, Podili. I had most of my schooling in Andhra Pradesh, 
 
 ### News
 
+|**Jan 2021**    |&nbsp;&nbsp;Submitted "Analyzing Empathy and Distress in Reactions to News Stories |
+|                |&nbsp;&nbsp;across Demographics" to ICWSM 2021 📄|
 |**Jan 2021**    |&nbsp;&nbsp;Our paper on demographic aware EmpathBERT is accepted at EACL 2021 📄|
 |**Dec 2020**    |&nbsp;&nbsp;Submitted "Supervised Automated Keyphrase Extraction" to PAKDD 2021 📄|
 |**Sep 2020**    |&nbsp;&nbsp;Attending RecSys 2020 to present our internship work|
